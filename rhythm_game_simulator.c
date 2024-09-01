@@ -752,8 +752,8 @@ void display_title(){
 
 	paint_all(BLACK);
 
-	locate(0, 0); prints("#include", GREEN); locate(9, 0); prints("<cguh.io>", WHITE);
-	locate(0, 1); prints("#define", GREEN); locate(8, 1); prints("ID 1052", WHITE);
+	locate(0, 0); prints("#include", GREEN); locate(9, 0); prints("<cold.io>", WHITE);
+	locate(0, 1); prints("#define", GREEN); locate(8, 1); prints("ID door", WHITE);
 
 	locate(0, 3); prints("int     (){", WHITE); locate(4, 3); prints("main", RED); 
 	locate(2, 4); prints("welcome", CYAN); locate(9, 4); prints("(!      ()){", WHITE); locate(11, 4); prints("mygame", MAGENTA);
@@ -894,7 +894,7 @@ void begin_tutorial(){
 		delay(800);
 
 		locate(1, 4);
-		prints("Sorry.The cguh1052 has been ", YELLOW);
+		prints("Sorry.The colddoor has been ", YELLOW);
 		delay(500);
 	
 		locate(1, 6);
@@ -1465,21 +1465,21 @@ void begin_op(){
 		if((ud_select == 4) && ((what_key & KEY_START) == KEY_START)){
 			if(pattern_note == STAMINA){
 				locate(3, 14);
-				prints("Eroor:", RED);
+				prints("Error:", RED);
 				locate(3, 15);
 				prints("PATTERN STREAM", YELLOW);
 				locate(4, 16);
 				prints("is coming soon!", YELLOW);
 			} else if(pattern_note == JACK){
 				locate(3, 14);
-				prints("Eroor:", RED);
+				prints("Error:", RED);
 				locate(3, 15);
 				prints("PATTERN JACK   ", YELLOW);
 				locate(4, 16);
 				prints("is coming soon!", YELLOW);
 			} else if(pattern_note == TECH){
 				locate(3, 14);
-				prints("Eroor:", RED);
+				prints("Error:", RED);
 				locate(3, 15);
 				prints("PATTERN TECH   ", YELLOW);
 				locate(4, 16);

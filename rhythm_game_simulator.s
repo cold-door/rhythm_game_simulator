@@ -4577,13 +4577,13 @@ judge_finger3:
 	.ascii	"#include\000"
 	.align	2
 .LC25:
-	.ascii	"<cguh.io>\000"
+	.ascii	"<cold.io>\000"
 	.align	2
 .LC26:
 	.ascii	"#define\000"
 	.align	2
 .LC27:
-	.ascii	"ID 1052\000"
+	.ascii	"ID door\000"
 	.align	2
 .LC28:
 	.ascii	"int     (){\000"
@@ -5101,7 +5101,7 @@ begin_start:
 	.ascii	"NO\000"
 	.align	2
 .LC62:
-	.ascii	"Sorry.The cguh1052 has been \000"
+	.ascii	"Sorry.The colddoor has been \000"
 	.align	2
 .LC63:
 	.ascii	"lazy and the TUTORIAL is not\000"
@@ -6029,7 +6029,7 @@ display_help:
 	.ascii	"START!\000"
 	.align	2
 .LC130:
-	.ascii	"Eroor:\000"
+	.ascii	"Error:\000"
 	.align	2
 .LC131:
 	.ascii	"PATTERN STREAM\000"
